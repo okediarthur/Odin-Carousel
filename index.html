@@ -3,22 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crousel</title>
+    <title>Carousel</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="carousel">
-        <button class="carousel__button carousel__button--left"></button>
+        <button class="carousel__button carousel__button--left">
+            <img src="/images/left.svg" alt="left">
+        </button>
     </div>
     <div class="carousel__track-container">
         <ul class="carousel_track">
             <li class="carousel__slide current slide">
             </li>
-            <div class="carousel_slide"> ...</div>
-            <div class="carousel_slide"> ...</div>
+            <li class="carousel__slider">
+                <img src="./images/beautiful.jpg" alt="" class="carousel_image">
+            </li>
+            <li class="carousel__slider">
+                <img src="./images/beautiful.jpg" alt="" class="carousel_image">
+            </li>
+            <li class="carousel__slider">
+                <img src="./images/beautiful.jpg" alt="" class="carousel_image">
+            </li>
         </ul>
     </div>
-    <button class="carousel__button carousel__button right"></button>
+    <button class="carousel__button carousel__button right">
+        <img src="/images/right.svg" alt="right">
+    </button>
 
     <div class="carousel nav">
         <button class="carousel__indicator current-slide"></button>
